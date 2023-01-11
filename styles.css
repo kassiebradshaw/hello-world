@@ -7,11 +7,17 @@ Here is that trick I used to show a border around every single HTML element:
 
 */
 
+main {
+  width: 80%;
+  margin: auto;
+}
+
 section {
   border: 2px solid rgb(30, 25, 120);
   background-color: pink;
   width: 30%;
   display: inline-block;
+  margin-top: 10px;
 }
 
 header {
@@ -27,6 +33,7 @@ h1 {
 /* id selector */
 #hero { 
   float: left;
+  width: 600px;
 }
 
 #first-list {

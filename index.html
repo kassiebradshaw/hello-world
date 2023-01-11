@@ -5,11 +5,7 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<!-- 3 ways to incorporate CSS:
-  - EXTERNAL - separate CSS file - BEST PRACTICE
-  - INTERNAL - using a <style> tag in HTML file
-  - INLINE - using a style attribute in specific HTML tag
--->
+
 
   <header>
     <h1>Chickie Tendies</h1>
@@ -20,14 +16,46 @@
         <li><a href="/">Link 3</a></li>
       </ul>
     </nav>
+    <script>
+      // console.log()
+      // alert()
+      // prompt()
+      // document.write()
+      // document.write("Hello world!");
+      // console.log("Hello world!");
+      // alert("Hello class!"); // popup box
+      let usersName = prompt("What is your name?");
+      console.log("The user's name is: " + usersName);
+      document.write("Hello and welcome " + usersName + "!");
+    </script>
+
   </header>
+  
 
   <main>
+    <script>
+      let myFavColor = 'yellow';
+      let userGuess = prompt("What is my favorite color?");
+      if (userGuess == myFavColor) {
+        document.write("You guessed my favorite color!");
+      } else if (userGuess == "YELLOW") {
+        document.write("You guessed my favorite color!");
+      } else if (userGuess == "Yellow"){
+        document.write("You guessed my favorite color!");
+      } else {
+        document.write("You did not guess my favorite color.");
+      }
+    </script>
+    
     <img id="hero"src="animalcrossing.jpeg" />
-    <p>Cheesy grin blue castello emmental. Swiss halloumi red leicester smelly cheese port-salut bavarian bergkase mozzarella melted cheese. Blue castello bocconcini melted cheese halloumi the big cheese camembert de normandie fromage pecorino. Cauliflower cheese st. agur blue cheese croque monsieur cream cheese cauliflower cheese cheese and wine rubber cheese cheese on toast. Gouda cheese and wine.
+    <p>Cheesy grin blue castello emmental. Swiss halloumi red leicester smelly cheese port-salut bavarian bergkase mozzarella melted cheese. Blue castello bocconcini melted cheese halloumi the big cheese camembert de normandie fromage pecorino. Cauliflower cheese st. agur blue cheese croque monsieur cream cheese cauliflower cheese cheese and wine rubber cheese cheese on toast. Gouda cheese and wine. Cheesy grin blue castello emmental. Swiss halloumi red leicester smelly cheese port-salut bavarian bergkase mozzarella melted cheese. Blue castello bocconcini melted cheese halloumi the big cheese camembert de normandie fromage pecorino. Cauliflower cheese st. agur blue cheese croque monsieur cream cheese cauliflower cheese cheese and wine rubber cheese cheese on toast. Gouda cheese and wine. Cheesy grin blue castello emmental. Swiss halloumi red leicester smelly cheese port-salut bavarian bergkase mozzarella melted cheese. Blue castello bocconcini melted cheese halloumi the big cheese camembert de normandie fromage pecorino. Cauliflower cheese st. agur blue cheese croque monsieur cream cheese cauliflower cheese cheese and wine rubber cheese cheese on toast. Gouda cheese and wine. Cheesy grin blue castello emmental. Swiss halloumi red leicester smelly cheese port-salut bavarian bergkase mozzarella melted cheese. Blue castello bocconcini melted cheese halloumi the big cheese camembert de normandie fromage pecorino. Cauliflower cheese st. agur blue cheese croque monsieur cream cheese cauliflower cheese cheese and wine rubber cheese cheese on toast. Gouda cheese and wine. Cheesy grin blue castello emmental. Swiss halloumi red leicester smelly cheese port-salut bavarian bergkase mozzarella melted cheese. Blue castello bocconcini melted cheese halloumi the big cheese camembert de normandie fromage pecorino. Cauliflower cheese st. agur blue cheese croque monsieur cream cheese cauliflower cheese cheese and wine rubber cheese cheese on toast. Gouda cheese and wine. 
     </p>
 
+
     <section>
+      <script>
+        document.write("Here are some facts for you! From Javascript");
+      </script>
       <h3>Fun Facts</h3>
       <img src="#" />
       <ul id="first-list" class="lower-sections">
@@ -57,6 +85,7 @@
         <li>Chick-Fil-A</li>
       </ul>
     </section>
+
 
   </main>
 
